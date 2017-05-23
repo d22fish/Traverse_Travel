@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+/*i"M A LITTLE TEA CUNT*/
+
 public class Home_Page extends AppCompatActivity {
 
     private static Button planVacationButton;
