@@ -28,7 +28,7 @@
                 android:layout_width="150dp"
                 android:text="Explore Globe"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="20dp"/>
+                android:layout_marginLeft="10dp"/>
 
             <Button
                 android:id="@+id/button_planVacation"
@@ -51,7 +51,7 @@
                 android:layout_width="150dp"
                 android:text="View Current Vacation"
                 android:layout_marginTop="40dp"
-                android:layout_marginLeft="20dp"/>
+                android:layout_marginLeft="10dp"/>
 
             <Button
                 android:id="@+id/button_storedVacations"
@@ -74,7 +74,7 @@
                 android:layout_width="150dp"
                 android:text="Networking and Social"
                 android:layout_marginTop="40dp"
-                android:layout_marginLeft="20dp"/>
+                android:layout_marginLeft="10dp"/>
 
             <Button
                 android:id="@+id/button_emergencyCall"
@@ -97,7 +97,7 @@
                 android:layout_width="150dp"
                 android:text="Finances"
                 android:layout_marginTop="40dp"
-                android:layout_marginLeft="20dp"/>
+                android:layout_marginLeft="10dp"/>
 
             <Button
                 android:id="@+id/button_reportNewThing"
@@ -120,7 +120,7 @@
                 android:layout_width="150dp"
                 android:text="Settings"
                 android:layout_marginTop="40dp"
-                android:layout_marginLeft="20dp"/>
+                android:layout_marginLeft="10dp"/>
 
             <Button
                 android:id="@+id/button_miscellaneous"
