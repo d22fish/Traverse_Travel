@@ -6,8 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-/*i"M A LITTLE TEA CUNT*/
-
 public class Home_Page extends AppCompatActivity {
 
     private static Button planVacationButton;
@@ -58,7 +56,7 @@ public class Home_Page extends AppCompatActivity {
     }
 
     public void networkingListener() {
-        networkingButton = (Button) findViewById(R.id.button_networking);
+        networkingButton = (Button) findViewById(R.id.button_networkingAndSocial);
         networkingButton.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
@@ -102,7 +100,7 @@ public class Home_Page extends AppCompatActivity {
     }
 
     public void ViewCurrentTripButtonListener() {
-        viewCurrentTripButton = (Button) findViewById(R.id.button_viewCurrentTrip);
+        viewCurrentTripButton = (Button) findViewById(R.id.button_viewCurrentVacation);
         viewCurrentTripButton.setOnClickListener(
                 new View.OnClickListener() {
                     @Override

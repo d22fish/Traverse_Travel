@@ -23,21 +23,21 @@
             android:layout_height="wrap_content">
 
             <Button
-                android:id="@+id/button_planVacation"
+                android:id="@+id/button_exploreGlobe"
                 android:layout_height="75dp"
                 android:layout_width="150dp"
-                android:text="Plan Vacation"
+                android:text="Explore Globe"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="20dp"/>
 
             <Button
-                android:id="@+id/button_exploreGlobe"
+                android:id="@+id/button_planVacation"
                 android:layout_width="150dp"
                 android:layout_height="75dp"
-                android:layout_toRightOf="@id/button_planVacation"
+                android:layout_toRightOf="@id/button_exploreGlobe"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
-                android:text="Explore Globe"/>
+                android:text="Plan Vacation"/>
 
         </RelativeLayout>
 
@@ -46,10 +46,33 @@
             android:layout_height="wrap_content">
 
             <Button
-                android:id="@+id/button_networking"
+                android:id="@+id/button_viewCurrentVacation"
                 android:layout_height="75dp"
                 android:layout_width="150dp"
-                android:text="Networking/Social Media"
+                android:text="View Current Vacation"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:id="@+id/button_storedVacations"
+                android:layout_height="75dp"
+                android:layout_width="150dp"
+                android:text="Emergency Call"
+                android:layout_toRightOf="@+id/button_viewCurrentVacation"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button_networkingAndSocial"
+                android:layout_height="75dp"
+                android:layout_width="150dp"
+                android:text="Networking and Social"
                 android:layout_marginTop="40dp"
                 android:layout_marginLeft="20dp"/>
 
@@ -57,8 +80,8 @@
                 android:id="@+id/button_emergencyCall"
                 android:layout_height="75dp"
                 android:layout_width="150dp"
-                android:text="Emergency Call"
-                android:layout_toRightOf="@+id/button_networking"
+                android:text="View Current Trip"
+                android:layout_toRightOf="@id/button_networkingAndSocial"
                 android:layout_marginTop="40dp"
                 android:layout_marginLeft="10dp"/>
 
@@ -77,13 +100,14 @@
                 android:layout_marginLeft="20dp"/>
 
             <Button
-                android:id="@+id/button_viewCurrentTrip"
+                android:id="@+id/button_reportNewThing"
                 android:layout_height="75dp"
                 android:layout_width="150dp"
-                android:text="View Current Trip"
+                android:text="Report a New Event or Place"
                 android:layout_toRightOf="@id/button_finances"
                 android:layout_marginTop="40dp"
                 android:layout_marginLeft="10dp"/>
+
         </RelativeLayout>
 
         <RelativeLayout
@@ -91,19 +115,19 @@
             android:layout_height="wrap_content">
 
             <Button
-                android:id="@+id/button_miscellaneous"
+                android:id="@+id/button_settings"
                 android:layout_height="75dp"
                 android:layout_width="150dp"
-                android:text="Miscellaneous"
+                android:text="Settings"
                 android:layout_marginTop="40dp"
                 android:layout_marginLeft="20dp"/>
 
             <Button
-                android:id="@+id/button_shit"
+                android:id="@+id/button_miscellaneous"
                 android:layout_height="75dp"
                 android:layout_width="150dp"
-                android:text="Anal"
-                android:layout_toRightOf="@id/button_miscellaneous"
+                android:text="Miscellaneous"
+                android:layout_toRightOf="@id/button_settings"
                 android:layout_marginTop="40dp"
                 android:layout_marginLeft="10dp"/>
 
