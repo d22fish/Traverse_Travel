@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@android:style/Theme.NoTitleBar"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.traverse.traverse_travel.Home_Page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button_planVacation"
+                android:layout_height="75dp"
+                android:layout_width="150dp"
+                android:text="Plan Vacation"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:id="@+id/button_exploreGlobe"
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_toRightOf="@id/button_planVacation"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Explore Globe"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button_networking"
+                android:layout_height="75dp"
+                android:layout_width="150dp"
+                android:text="Networking/Social Media"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:id="@+id/button_emergencyCall"
+                android:layout_height="75dp"
+                android:layout_width="150dp"
+                android:text="Emergency Call"
+                android:layout_toRightOf="@+id/button_networking"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button_finances"
+                android:layout_height="75dp"
+                android:layout_width="150dp"
+                android:text="Finances"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:id="@+id/button_viewCurrentTrip"
+                android:layout_height="75dp"
+                android:layout_width="150dp"
+                android:text="View Current Trip"
+                android:layout_toRightOf="@id/button_finances"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button_miscellaneous"
+                android:layout_height="75dp"
+                android:layout_width="150dp"
+                android:text="Miscellaneous"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:id="@+id/button_shit"
+                android:layout_height="75dp"
+                android:layout_width="150dp"
+                android:text="Anal"
+                android:layout_toRightOf="@id/button_miscellaneous"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
