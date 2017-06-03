@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Traverse_Travel</string>
+    <string name="title_activity_explore_globe">Map</string>
 </resources>
