@@ -33,7 +33,7 @@ public class Home_Page extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.example.adrian.traverse_app.PlanVacation");
+                        Intent intent = new Intent("com.traverse.traverse_travel.PlanVacation");
                         startActivity(intent);
 
                     }
@@ -76,7 +76,7 @@ public class Home_Page extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.example.adrian.traverse_app.PlanVacation");
+                        Intent intent = new Intent("com.example.adrian.traverse_app.ExploreGlobeActivity");
                         startActivity(intent);
 
                     }
@@ -105,7 +105,7 @@ public class Home_Page extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.example.adrian.traverse_app.PlanVacation");
+                        Intent intent = new Intent("com.example.adrian.traverse_app.ExploreGlobeActivity");
                         startActivity(intent);
 
                     }

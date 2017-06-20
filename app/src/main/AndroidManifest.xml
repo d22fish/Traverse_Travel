@@ -36,8 +36,22 @@
 
         <activity
             android:name=".ExploreGlobeActivity"
-            android:label="@string/title_activity_explore_globe" />
-        <activity android:name=".PlanVacation"></activity>
+            android:label="@string/title_activity_explore_globe">
+            <intent-filter>
+                <action android:name="com.traverse.traverse_travel.ExploreGlobeActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".PlanVacation"
+            android:label="@string/title_activity_plan_vacation"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.traverse.traverse_travel.PlanVacation" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
